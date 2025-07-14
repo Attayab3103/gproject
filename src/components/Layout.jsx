@@ -16,6 +16,7 @@ const navLinks = [
   { to: '/our-moments', label: '📸 Our Moments' },
   { to: '/special', label: '🎉 Special for Mahi' },
   { to: '/bouquet', label: '💐 Virtual Bouquet' },
+  { to: '/game', label: '🎮 Word Game' }, // Add this line
 ];
 
 

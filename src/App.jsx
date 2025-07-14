@@ -8,6 +8,7 @@ import MyPromise from './pages/MyPromise';
 import OurMoments from './pages/OurMoments';
 import SpecialPage from './pages/SpecialPage';
 import BouquetPage from './pages/BouquetPage';
+import GamePage from './pages/GamePage'; // Import the new GamePage
 import Layout from './components/Layout';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/our-moments" element={<OurMoments />} />
         <Route path="/special" element={<SpecialPage />} />
         <Route path="/bouquet" element={<BouquetPage />} />
+        <Route path="/game" element={<GamePage />} /> {/* Add the new GamePage route */}
       </Routes>
     </Layout>
   );
