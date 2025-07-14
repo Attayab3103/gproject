@@ -422,7 +422,7 @@ const GamePage = () => {
                   onChange={(e) => setSecretWord(e.target.value)}
                   placeholder="Type your secret word here"
                 />
-                <p className="text-lg text-gray-700 mb-2">Set the number of chances (e.g., {secretWord.length + 2} for word length + 2):</p>
+                <p className="text-lg text-gray-700 mb-2">Set the number of chances:</p>
                 <input
                   type="number"
                   className="w-full max-w-sm p-3 rounded-xl border border-pink-300 bg-white/70 text-gray-800 placeholder-pink-400 focus:outline-none focus:ring-2 focus:ring-pink-500"
